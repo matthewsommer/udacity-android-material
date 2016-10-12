@@ -21,4 +21,13 @@
         <item name="colorPrimaryDark">@color/indigo_700</item>
         <item name="colorAccent">@color/pink_a200</item>
     </style>
+
+    <style name="Theme.Bacon.Home">
+        <item name="android:windowExitTransition">@transition/item_exit</item>
+        <item name="android:windowReenterTransition">@transition/item_reenter</item>
+    </style>
+
+    <style name="Theme.Bacon.Details">
+        <item name="android:windowSharedElementEnterTransition">@transition/shared_image</item>
+    </style>
 </resources>
